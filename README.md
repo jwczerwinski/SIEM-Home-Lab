@@ -10,6 +10,7 @@ Implement Microsoft Sentinel (SIEM) and integrate it with a live virtual machine
 - <b>Windows Server 2022 </b> (21H2)
 
 <h2>Diagram </h2>
+<img src="https://i.imgur.com/7qNlLBO.png" height="80%" width="80%" />
 
 <h2>Walk-through:</h2>
 <p align="center">
@@ -19,5 +20,26 @@ Implement Microsoft Sentinel (SIEM) and integrate it with a live virtual machine
 <br />
 Start free trial Azure account: <br/>
 <img src="https://i.imgur.com/SaKx6jR.png" height="80%" width="80%" />
+<br />
+<br />
+Create a vitrual machine named "Honeypot" and resource group named "Honeypotlab". Remove existing firewall rules and add a rule to allow all traffic in. Review and create VM.: <br/>
+<img src="https://i.imgur.com/txgXdec.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/mr41aRO.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/MA2yoZQ.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/YTzTl30.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/2V9gd1J.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/BpluC1u.png" height="80%" width="80%" />
+<br />
+<br />
+Create log analytics workspace. Add to Honeypotlab resource group. Name "law-honeypot1". Add to same region. Review and create LAW.: <br/>
+<img src="https://i.imgur.com/qwD5cuv.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/pb5fi5N.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/1l31Qmz.png" height="80%" width="80%" />
+<br />
+<br />
+From Microsoft Defender for Cloud, Enable LAW to gather VM logs.: <br/>
+<img src="https://i.imgur.com/zjo7GSC.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/dfqyiYk.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/X0gt5IH.png" height="80%" width="80%" />
 <br />
 <br />
