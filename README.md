@@ -22,7 +22,7 @@ Start free trial Azure account: <br/>
 <img src="https://i.imgur.com/SaKx6jR.png" height="80%" width="80%" />
 <br />
 <br />
-Create a vitrual machine named "Honeypot" and resource group named "Honeypotlab". Remove existing firewall rules and add a rule to allow all traffic in. Review and create VM.: <br/>
+Create a VM named "Honeypot", create resource group named "Honeypotlab", remove existing firewall rules, add a rule to allow all traffic in, then review and create VM: <br/>
 <img src="https://i.imgur.com/txgXdec.png" height="80%" width="80%" />
 <img src="https://i.imgur.com/mr41aRO.png" height="80%" width="80%" />
 <img src="https://i.imgur.com/MA2yoZQ.png" height="80%" width="80%" />
@@ -31,15 +31,38 @@ Create a vitrual machine named "Honeypot" and resource group named "Honeypotlab"
 <img src="https://i.imgur.com/BpluC1u.png" height="80%" width="80%" />
 <br />
 <br />
-Create log analytics workspace. Add to Honeypotlab resource group. Name "law-honeypot1". Add to same region. Review and create LAW.: <br/>
+Create Log Analytics workspace, add to Honeypotlab resource group, name "law-honeypot1", add to same region, then review and create Log Analytics: <br/>
 <img src="https://i.imgur.com/qwD5cuv.png" height="80%" width="80%" />
 <img src="https://i.imgur.com/pb5fi5N.png" height="80%" width="80%" />
 <img src="https://i.imgur.com/1l31Qmz.png" height="80%" width="80%" />
 <br />
 <br />
-From Microsoft Defender for Cloud, Enable LAW to gather VM logs.: <br/>
+From Microsoft Defender for Cloud, enable Log Analytics to gather VM logs: <br/>
 <img src="https://i.imgur.com/zjo7GSC.png" height="80%" width="80%" />
 <img src="https://i.imgur.com/dfqyiYk.png" height="80%" width="80%" />
 <img src="https://i.imgur.com/X0gt5IH.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/1zjdUvM.png" height="80%" width="80%" />
 <br />
 <br />
+Connect Log Analytics to VM: <br/>
+<img src="https://i.imgur.com/9WGBfap.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/DovYnHD.png" height="80%" width="80%" />
+<br />
+<br />
+Setup Microsoft Sentinel: <br/>
+<img src="https://i.imgur.com/qthJlJN.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/qpjdktX.png" height="80%" width="80%" />
+<br />
+<br />
+Log into VM with RDP: <br/>
+<img src="https://i.imgur.com/II25P3u.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/D5rvf8r.png" height="80%" width="80%" />
+<br />
+<br />
+Turn off Windows Firewall on VM: <br/>
+<img src="https://i.imgur.com/2G00v1z.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/KghCre8.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/4uUINph.png" height="80%" width="80%" />
+<br />
+<br />
+
