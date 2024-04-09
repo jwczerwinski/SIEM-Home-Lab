@@ -65,4 +65,11 @@ Turn off Windows Firewall on VM: <br/>
 <img src="https://i.imgur.com/4uUINph.png" height="80%" width="80%" />
 <br />
 <br />
+Download/Copy PowerShell Script on VM and save as (see link in description): <br/>
+<img src="https://i.imgur.com/wL6RLjS.png" height="80%" width="80%" />
+<br />
+<br />
+Get Geolocation.io API key from here https://ipgeolocation.io/: <br/>
+<br />
+<br />
 
