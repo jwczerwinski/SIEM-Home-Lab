@@ -65,11 +65,21 @@ Turn off Windows Firewall on VM: <br/>
 <img src="https://i.imgur.com/4uUINph.png" height="80%" width="80%" />
 <br />
 <br />
-Download/Copy PowerShell Script on VM and save as (see link in description): <br/>
-<img src="https://i.imgur.com/wL6RLjS.png" height="80%" width="80%" />
+Sign up and get ipgeolocation.io API key from here https://ipgeolocation.io/, <br />
+Download/Copy PowerShell Script on VM and save as (see link in description), <br />
+Run script with API key to get geo data from attackers and confirm with failed logon attempt from host: <br/>
+<img src="https://i.imgur.com/jpJGR2r.png" height="80%" width="80%" />
 <br />
 <br />
-Get Geolocation.io API key from here https://ipgeolocation.io/: <br/>
+Create custom log in Log Analytics to bring in our custom failed RDP log: <br/>
+<img src="https://i.imgur.com/GaUmoCs.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/XdKgquS.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/kqvXKEn.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/uzi6p48.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/iWwKfYs.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/YJxvTif.png" height="80%" width="80%" />
 <br />
 <br />
+Confirm logs are being brought in, then create custom extract fields from raw custom log data: <br/>
+<img src="https://i.imgur.com/gUBM9Mm.png" height="80%" width="80%" />
 
