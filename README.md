@@ -84,5 +84,8 @@ Confirm logs are being brought in, then create custom extract fields from raw cu
 <img src="https://i.imgur.com/gUBM9Mm.png" height="80%" width="80%" />
 <img src="https://i.imgur.com/t3EeUG8.png" height="80%" width="80%" />
 <img src="https://i.imgur.com/t3EeUG8.png" height="80%" width="80%" />
-DCE & DCR creation: https://learn.microsoft.com/en-us/azure/azure-monitor/logs/tutorial-logs-ingestion-portal
-Convert .log to .json (read powershell script): https://learn.microsoft.com/en-us/azure/azure-monitor/logs/tutorial-logs-ingestion-portal#generate-sample-data
+<br />
+DCE & DCR creation: https://learn.microsoft.com/en-us/azure/azure-monitor/logs/tutorial-logs-ingestion-portal <br />
+<br />
+Convert .log to .json (read powershell script): https://learn.microsoft.com/en-us/azure/azure-monitor/logs/tutorial-logs-ingestion-portal#generate-sample-data <br />
+
