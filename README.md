@@ -80,6 +80,7 @@ Create custom log in Log Analytics to bring in our custom failed RDP log: <br/>
 <img src="https://i.imgur.com/YJxvTif.png" height="80%" width="80%" />
 <br />
 <br />
-Confirm logs are being brought in, then create custom extract fields from raw custom log data: <br/>
+Confirm logs are being brought in, then create custom extract fields from raw custom log data (might need to wait 10-20 min for Log Analytics and VM to connect log data): <br/>
 <img src="https://i.imgur.com/gUBM9Mm.png" height="80%" width="80%" />
-
+<img src="https://i.imgur.com/t3EeUG8.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/t3EeUG8.png" height="80%" width="80%" />
